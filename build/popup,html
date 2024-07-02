@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site Blocker</title>
+    <script src="popup.js"></script>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 10px; }
+      ul { list-style: none; padding: 0; }
+      li { margin: 5px 0; }
+      button { margin-left: 10px; }
+    </style>
+  </head>
+  <body>
+    <h2>Blocklist Manager</h2>
+    <div id="blocklist-manager"></div>
+  </body>
+</html>

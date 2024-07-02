@@ -1,0 +1,51 @@
+.blocklist-manager {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blocklist-manager h2 {
+  text-align: center;
+}
+
+.blocklist-manager input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.blocklist-manager button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blocklist-manager button:hover {
+  background-color: #0056b3;
+}
+
+.blocklist-manager ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blocklist-manager li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocklist-manager li button {
+  background-color: #dc3545;
+}
+
+.blocklist-manager li button:hover {
+  background-color: #c82333;
+}

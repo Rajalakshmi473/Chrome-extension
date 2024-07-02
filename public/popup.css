@@ -1,0 +1,73 @@
+/* Basic styles for the popup container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  /* Header style */
+  h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+  }
+  
+  /* Style for the blocklist items */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Remove button style */
+  button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e60000;
+  }
+  
+  /* Input and add button styles */
+  input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button.add-site {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button.add-site:hover {
+    background-color: #218838;
+  }
+  
